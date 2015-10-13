@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/app_main_theme_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/pure_white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/item_top_10_vp_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            android:scaleType="centerCrop"
+            android:src="@color/pale_pink"
+            />
+
+        <TextView
+            android:id="@+id/item_top_10_vp_cn_tv"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="right|center_vertical"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            style="@style/NormalTextTheme"
+            android:background="#7fff"
+            android:text="cn"
+            />
+
+        <ImageView
+            android:id="@+id/item_top_10_vp_cn_iv"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="16dp"
+            android:src="@color/pure_white"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</FrameLayout>

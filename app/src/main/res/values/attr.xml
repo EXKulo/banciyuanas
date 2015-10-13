@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="aspect_ratio" format="float"/>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="radius" format="dimension"/>
+        <attr name="aspect_ratio"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioViewGroup">
+        <attr name="aspect_ratio"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">半次元AS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="title_activity_post_detail">po详情</string>
+
+    <string name="transition_home_post_to_detail">transition_home_post_to_detail</string>
+    <string name="title_activity_picture_detail">PictureDetailActivity</string>
+    <string name="title_activity_top10">Top10Activity</string>
+</resources>

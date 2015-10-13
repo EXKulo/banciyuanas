@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/pure_white"
+    app:cardElevation="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_infomation_orignal_art_title"
+            style="@style/NormalTextTheme"
+            android:text="原作："
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_infomation_orignal_art_tv"
+            style="@style/NormalTextAppColorTheme"
+            android:layout_toRightOf="@id/header_activity_post_detail_infomation_orignal_art_title"
+            android:text="原作"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_char_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="角色："
+            android:layout_below="@id/header_activity_post_detail_infomation_orignal_art_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/app_main_theme_text"
+            android:textSize="@dimen/app_normal_text"
+            />
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_char_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_activity_post_detail_infomation_orignal_art_title"
+            android:layout_toRightOf="@id/header_activity_post_detail_char_title"
+            android:background="@drawable/bg_post_detail_blue"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/pure_white"
+            android:layout_marginLeft="16dp"
+            android:textSize="@dimen/app_little_hint"
+            android:text="角色名"
+            android:elevation="1dp"
+            />
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_cn_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_below="@id/header_activity_post_detail_infomation_orignal_art_title"
+            android:layout_toRightOf="@id/header_activity_post_detail_char_tv"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/app_normal_text"
+            android:textColor="@color/app_main_theme_text"
+            android:text="cn:"
+            />
+
+        <TextView
+            android:id="@+id/header_activity_post_detail_cn_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/header_activity_post_detail_cn_title"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/app_normal_text"
+            android:layout_below="@id/header_activity_post_detail_infomation_orignal_art_title"
+            android:textColor="@color/dark_pink"
+            android:text="cnName"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

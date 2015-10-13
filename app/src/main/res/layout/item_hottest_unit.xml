@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.exkulo.banciyuan.ui.customwidget.ExRoundImageView
+        android:id="@+id/item_hotest_unit_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:aspect_ratio="0.66"
+        android:src="@color/pale_pink"
+        />
+
+    <TextView
+        android:id="@+id/item_hotest_unit_browse_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阅读量"
+        android:textColor="@color/pure_white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignParentTop="true"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/item_hotest_unit_cn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cn"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/pure_white"
+        />
+
+</RelativeLayout>

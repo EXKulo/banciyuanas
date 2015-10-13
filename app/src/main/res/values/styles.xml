@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+        parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/accent_pink</item>
+        <item name="colorPrimaryDark">@color/dark_pink</item>
+    </style>
+
+    <style name="NormalTextTheme"
+        parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/app_normal_text</item>
+        <item name="android:textColor">@color/app_main_theme_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NormalTextAppColorTheme"
+        parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/app_normal_text</item>
+        <item name="android:textColor">@color/dark_pink</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.MaterialProgressBar.ProgressBar"
+        parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+        <item name="android:tint">@color/accent_pink</item>
+    </style>
+
+</resources>
